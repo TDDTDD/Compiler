@@ -1,0 +1,7 @@
+void main ( ) {
+    if [i>5] then
+        i=i+1;
+    else
+        i=i-1;
+    endif;
+}

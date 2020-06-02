@@ -1,0 +1,36 @@
+A1的First集合为：
+( identifier number 
+A1'的First集合为：
++ - @ 
+A2的First集合为：
+identifier 
+A3的First集合为：
+[ 
+A4的First集合为：
+double int 
+A5的First集合为：
+repeat 
+A6的First集合为：
+if 
+A7的First集合为：
+print read 
+A8的First集合为：
+double identifier if int print read repeat 
+A8'的First集合为：
+@ double identifier if int print read repeat 
+B1的First集合为：
+( identifier number 
+B1'的First集合为：
+* / @ 
+C1的First集合为：
+( identifier number 
+C3的First集合为：
+!= < <= == > >= and or 
+C7的First集合为：
+identifier 
+C7'的First集合为：
+, @ 
+D7的First集合为：
+identifier 
+S的First集合为：
+void 

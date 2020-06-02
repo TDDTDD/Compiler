@@ -1,0 +1,3 @@
+line 2 : a@b is a wrong word
+line 4 : $$ operation type does not match
+line 5 : Cannot match [

@@ -1,0 +1,36 @@
+A1的Follow集合为：
+!= ) ; < <= == > >= ] and or 
+A1'的Follow集合为：
+!= ) ; < <= == > >= ] and or 
+A2的Follow集合为：
+double else endif identifier if int print read repeat until } 
+A3的Follow集合为：
+; then 
+A4的Follow集合为：
+double else endif identifier if int print read repeat until } 
+A5的Follow集合为：
+double else endif identifier if int print read repeat until } 
+A6的Follow集合为：
+double else endif identifier if int print read repeat until } 
+A7的Follow集合为：
+double else endif identifier if int print read repeat until } 
+A8的Follow集合为：
+else endif until } 
+A8'的Follow集合为：
+else endif until } 
+B1的Follow集合为：
+!= ) + - ; < <= == > >= ] and or 
+B1'的Follow集合为：
+!= ) + - ; < <= == > >= ] and or 
+C1的Follow集合为：
+!= ) * + - / ; < <= == > >= ] and or 
+C3的Follow集合为：
+] 
+C7的Follow集合为：
+) 
+C7'的Follow集合为：
+) 
+D7的Follow集合为：
+) , 
+S的Follow集合为：
+$ 

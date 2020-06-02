@@ -1,0 +1,13 @@
+void main ( ) {
+    if [i>5] then
+        int a;
+        a=3*4;
+        i=i+1;
+    else
+        i=i-1;
+        print(i);
+    endif;
+    repeat
+        i=i+1;
+    until [i>5];
+}

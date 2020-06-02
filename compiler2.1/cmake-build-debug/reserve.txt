@@ -1,0 +1,16 @@
+read
+print
+not
+or
+and
+int
+double
+repeat
+until
+if
+then
+elseif
+endif
+else
+void
+main

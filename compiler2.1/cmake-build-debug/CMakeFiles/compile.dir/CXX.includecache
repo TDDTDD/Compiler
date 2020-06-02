@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/TDD_code/Clion/compiler2.1/createAnalysisTable.h
+string
+-
+
+D:/TDD_code/Clion/compiler2.1/grammarAnalysis.h
+
+D:/TDD_code/Clion/compiler2.1/lexicalAnalysis.h
+string
+-
+
+D:/TDD_code/Clion/compiler2.1/main.cpp
+lexicalAnalysis.h
+D:/TDD_code/Clion/compiler2.1/lexicalAnalysis.h
+grammarAnalysis.h
+D:/TDD_code/Clion/compiler2.1/grammarAnalysis.h
+createAnalysisTable.h
+D:/TDD_code/Clion/compiler2.1/createAnalysisTable.h
+shared_base.h
+D:/TDD_code/Clion/compiler2.1/shared_base.h
+printOut.h
+D:/TDD_code/Clion/compiler2.1/printOut.h
+iostream
+-
+fstream
+-
+iomanip
+-
+
+D:/TDD_code/Clion/compiler2.1/printOut.h
+
+D:/TDD_code/Clion/compiler2.1/shared_base.h
+string
+-
+vector
+-
+

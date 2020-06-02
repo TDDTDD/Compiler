@@ -1,0 +1,47 @@
+A1  B1 A1'
+A1' + B1 A1'
+A1' - B1 A1'
+A1' @
+B1  C1 B1'
+B1' * C1 B1'
+B1' / C1 B1'
+B1' @
+C1  ( A1 )
+C1  identifier
+C1  number
+
+A2  identifier = A1 ;
+
+A3  [ A1 C3 ]
+C3  < A1
+C3  > A1
+C3  <= A1
+C3  >= A1
+C3  == A1
+C3  != A1
+C3  or A1
+C3  and A1
+
+A4  int identifier ;
+A4  double identifier ;
+
+A5  repeat A8 until A3 ;
+
+A6  if A3 then A8 else A8 endif ;
+
+A7  read ( C7 ) ;
+A7  print ( C7 ) ;
+C7  D7 C7'
+C7' , D7 C7'
+C7' @
+D7  identifier
+
+S   void main ( ) { A8 }
+A8  A2 A8'
+A8  A4 A8'
+A8  A5 A8'
+A8  A6 A8'
+A8  A7 A8'
+A8' A8
+A8' @
+

@@ -1,0 +1,23 @@
+void main ( ) {
+    double tdd;
+    tdd=0.0;
+    int a; a=1;
+    int b; b=1;
+    int c;
+    repeat
+        c=a+b;
+        a=b;
+        b=c;
+        print(b);
+    until [b>a+10];
+    repeat
+        repeat
+            if [b>=0] then
+                b=b-1;
+                print(b);
+            else
+                b=b+2;
+            endif;
+        until [b>5+a];
+    until [b>2+(a*c)];
+}

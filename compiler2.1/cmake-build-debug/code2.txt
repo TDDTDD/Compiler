@@ -1,0 +1,11 @@
+void main ( ) {
+    int i;
+    if [i>5] then
+        int a;
+        a=3*4;
+        i=i+1;
+    endif;
+    repeat
+        i@1=i+1;
+    until [i>5];
+}
